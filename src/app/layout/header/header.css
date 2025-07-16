@@ -1,12 +1,16 @@
 .header-toolbar {
+  background-color: var(--mat-palette-cyan-700);
+  color: white;
   display: flex;
   justify-content: space-between;
   padding: 0 16px;
 }
 
+
 .app-title {
   font-weight: bold;
   font-size: 20px;
+  color: black
 }
 
 .spacer {

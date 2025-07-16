@@ -1,9 +1,18 @@
-.layout-container {
-  height: 100vh;
+
+mat-sidenav-container {
+  border: none;
+  box-shadow: none;
+}
+
+mat-sidenav {
+  border-right: none;
+  box-shadow: none;
 }
 
 .main-content {
-  padding: 16px;
-  min-height: calc(100vh - 128px); /* Ajuste para header + footer */
-  box-sizing: border-box;
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  margin: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }

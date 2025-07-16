@@ -6,9 +6,10 @@ import { authGuard } from './core/auth-guard';
 import { Login } from './pages/login/login';
 
 export const routes: Routes = [
-  { path: '', component: Home },
+  { path: '', component: Login },
   { path: 'login', component: Login },
-  { path: 'dashboard', component: Dashboard, canActivate: [authGuard] },
+  { path: 'home', component: Home },
   { path: 'about', component: About },
+  { path: 'dashboard', component: Dashboard, canActivate: [authGuard] },
   { path: '**', redirectTo: '' },
 ];
