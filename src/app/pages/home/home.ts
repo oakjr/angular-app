@@ -8,4 +8,10 @@ import { CommonModule } from '@angular/common';
   templateUrl: './home.html',
   styleUrls: ['./home.css'],
 })
-export class Home {}
+export class Home {
+  
+constructor() {
+  console.log('Home carregado');
+}
+
+}
