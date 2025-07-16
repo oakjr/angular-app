@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" class="header-toolbar">
+  <span class="app-title">angular-app</span>
+
+  <span class="spacer"></span>
+
+  <ng-container *ngIf="isLoggedIn()">
+    <span class="username">Olá, {{ username() }}</span>
+    <button mat-button (click)="logout()">Sair</button>
+  </ng-container>
+</mat-toolbar>
