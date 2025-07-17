@@ -1,6 +1,6 @@
 .header-toolbar {
-  background-color: var(--mat-palette-cyan-700);
-  color: white;
+  background-color: inherit;
+  color: inherit;
   display: flex;
   justify-content: space-between;
   padding: 0 16px;
@@ -8,9 +8,9 @@
 
 
 .app-title {
-  font-weight: bold;
+  font-weight:inherit;
   font-size: 20px;
-  color: black
+  color: inherit;
 }
 
 .spacer {

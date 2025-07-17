@@ -1,2 +1,62 @@
-<h2>Dashboard</h2>
-<p>Você está logado e pode ver esta página protegida.</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .chart {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .chart img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .comments {
+            background-color: #f9fafb;
+            border-left: 4px solid #007acc;
+            padding: 15px 20px;
+            border-radius: 4px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard de Vendas - Julho</h1>
+
+        <div class="chart">
+            <img src="https://quickchart.io/chart?c={type:'line',data:{labels:['Semana 1','Semana 2','Semana 3','Semana 4'],datasets:[{label:'Vendas',data:[120,150,180,200]}]}}" alt="Gráfico de Vendas">
+        </div>
+
+        <div class="comments">
+            <p><strong>Comentários:</strong></p>
+            <p>O gráfico mostra uma tendência de crescimento nas vendas ao longo das semanas de julho. Houve um aumento mais acentuado entre a semana 2 e 3, possivelmente impulsionado por ações promocionais. A manutenção dessa curva ascendente dependerá da continuidade dessas estratégias.</p>
+        </div>
+    </div>
+</body>
+</html>
